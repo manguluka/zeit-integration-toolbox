@@ -8,6 +8,11 @@ Contributions(tests/documentation/..) welcome and appreciated. Feel free to cont
 
 The integration used in screenshot can be found at [https://github.com/manguluka/zeit-integration-starter-offline](https://github.com/manguluka/zeit-integration-starter-offline)
 
+**Related Links**
+- [https://github.com/manguluka/zeit-api-client](https://github.com/manguluka/zeit-api-client) JavaScript wrapper for the Zeit API
+- [https://github.com/manguluka/zeit-integration-starter-offline](https://github.com/manguluka/zeit-integration-starter-offline) Offline-first project starter and component showcase for Zeit Integrations
+- [https://github.com/zeit/awesome-zeit-integrations](https://github.com/zeit/awesome-zeit-integrations) This list aggregates the best resources for ZEIT Integrations.
+
 ## Development
 
 ``` bash
