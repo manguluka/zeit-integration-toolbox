@@ -74,7 +74,7 @@ export default class Home extends Component {
     return (
       <div class={`page`}>
         <h1>Integration Server Tester</h1>
-        <p>Live coding editor for the Zeit integration catalog</p>
+        <p>Make queries to an integration server with simulated visual output </p>
         <input onChange={(ev) => this.setState({serverUrl:ev.target.value})} value={this.state.serverUrl} />
         <button onClick={this.sendRequest.bind(this)}>Send Request</button>
         {this.state.loading ? <LinearProgress indeterminate={true} /> : ""}

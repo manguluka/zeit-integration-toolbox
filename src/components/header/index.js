@@ -62,7 +62,7 @@ export default class Header extends Component {
 							<TopAppBar.Icon menu onClick={this.openDrawer}>
 								menu
 							</TopAppBar.Icon>
-							<TopAppBar.Title>Zeit Integration Dev Toolbox</TopAppBar.Title>
+							<TopAppBar.Title>Zeit Integration Toolbox</TopAppBar.Title>
 						</TopAppBar.Section>
 						<TopAppBar.Section align-end shrink-to-fit onClick={this.openSettings}>
 							<TopAppBar.Icon>settings</TopAppBar.Icon>

@@ -1,10 +1,12 @@
-# zeit-integration-dev-toolbox
+# Zeit Integration Toolbox
 
 > Tools to facilitate rapid development of [Zeit Integrations](https://zeit.co/docs/integrations)
 
 Originally created for participants in the inaugural [Zeit Integrations Hackathon](https://zeit.co/hackathon). 
 
 Contributions(tests/documentation/..) welcome and appreciated. Feel free to contact `@Luka Kakia` on the hackathon Slack with any questions.
+
+The integration used in screenshot can be found at [https://github.com/manguluka/zeit-integration-starter-offline](https://github.com/manguluka/zeit-integration-starter-offline)
 
 ## Development
 
