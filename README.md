@@ -2,6 +2,8 @@
 
 > Tools to facilitate rapid development of [Zeit Integrations](https://zeit.co/docs/integrations)
 
+![screenrecording](http://cdn-9w4u9y9br.now.sh/zeit-integration-toolbox.gif "Screenrecording")
+
 Originally created for participants in the inaugural [Zeit Integrations Hackathon](https://zeit.co/hackathon). 
 
 Contributions(tests/documentation/..) welcome and appreciated. Feel free to contact `@Luka Kakia` on the hackathon Slack with any questions.
