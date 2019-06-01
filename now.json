@@ -3,5 +3,9 @@
     "name": "zeit-dev-toolbox",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
-    ]
+    ],
+    "routes": [
+    {"src": "/(.*)", "dest": "/index.html"}
+  ]
+
 }
