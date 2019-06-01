@@ -1,6 +1,6 @@
 import { h, Component } from "preact";
 import style from "./style";
-import Markup from 'preact-markup'
+import Markup from "preact-markup";
 import * as CatalogComponents from "../zeit-catalog";
 export const hackMarkup = markup => {
 	let hackedMarkup = markup;
@@ -9,19 +9,18 @@ export const hackMarkup = markup => {
 	return hackedMarkup;
 };
 
-
 class CodeEditor extends Component {
 	onChange(ev) {
-		let val = ev.target.value
-
+		let val = ev.target.value;
 		this.props.onChange(val);
 	}
 	render() {
 		return (
 			<div class={style.codeEditor}>
-				<textarea onInput={this.onChange.bind(this)}>
-					{this.props.code}
-				</textarea>
+				<textarea
+					onInput={this.onChange.bind(this)}
+					value={this.props.code}
+				/>
 			</div>
 		);
 	}
@@ -29,7 +28,6 @@ class CodeEditor extends Component {
 
 export default class SplitEditor extends Component {
 	onEditorChange(val) {
-			
 		this.props.onEditorChange(val);
 	}
 	render() {
