@@ -1,11 +1,12 @@
 {
     "version": 2,
-    "name": "zeit-dev-toolbox",
+    "name": "zeit-integration-toolbox",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
     ],
     "routes": [
-    {"src": "/(.*)", "dest": "/index.html"}
+    {"src": "/integration-tester", "dest": "/index.html"},
+    {"src": "/ui-simulator", "dest": "/index.html"}
   ]
 
 }
